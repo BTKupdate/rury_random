@@ -1,0 +1,20 @@
+--[[
+local randomConfig = {
+    chance = { -- The higher the number, the higher the chance of a drop
+        basic = 100,
+        low = 80,
+        med = 35,
+        high = 15,
+        prem = 4
+    },
+    rewards = {
+        basic = {'fish_eel', 'fish'},
+        low = {'fish_bream'},
+        med = {'fish_silvercarp'},
+        high = {'fish_pikeperch'},
+        prem = {'fish_rainbowtrout'}
+    }
+}
+exports['rury_random']:getRandomReward(randomConfig) -- returned item name
+-- And you just have to add the function of adding an item to the player
+]]--
