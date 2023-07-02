@@ -1,5 +1,5 @@
 local rnd = {}
-local bonusNames = {
+local bonusNames = { -- Only for rury_vip
     ['prem'] = true,
     ['high'] = true,
     ['med'] = true,
